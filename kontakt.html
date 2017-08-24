@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Kontakt</title>
+	<meta name="description" content="Kontakt GAZA A.A Gąsiewicz." />
+	<meta name= "keywords" content="GAZA,transport,gaza transport,gaza kontakt" />
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="Shortcut icon" href="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/contact-256.png" />
+</head>
+
+<body>
+<center><img src="obrazy/kontakt.jpg"><br/></center>
+<div id="container">
+<div id="okredyt">
+
+<center><br/>
+	Nie znalazłeś odpowiedzi na swoje pytanie na naszej stronie? Skontaktuj się znami przez formularz lub zadzwoń!<br/>
+	<br/>
+	<b>GAZA A.A Gąsiewicz Sp.J</b><br/>
+Wyspiańskiego 40<br/>
+57-300 Kłodzko<br/>
+<br/>
+Tel: 508 354 614<br/>
+email: a.gasiewicz@gmail.com<br/>
+<br/>
+<b>Spedytorzy:<br/></b>
+Dorota Gąsiewicz<br/>
+Tel: 509 941 814<br/>
+email: d.gasiewicz@gmail.com<br/>
+<br/>
+Ewa Stanicka<br/>
+Tel: 795 436 012<br/>
+email: e.stanicka@gaza.pl<br/>
+<body2>
+<?php include('form.php);?>
+<?php include('form_process.php'); ?>
+<div class="container">  
+  <form id="contact" action="" method="post"><?php htmlspecialchar($_SERVER["PHP_SELF"]) ?> 
+    <h3>Kontakt</h3>
+    <h4>Skontaktuj się z nami dzisiaj, odpowiedź otrzymasz wciągu 24h!</h4>
+    <fieldset>
+      <input placeholder="Imię i nazwisko" type="text" tabindex="1" name="name" required autofocus>
+   <span class="error"> <?= $name_error ?></span>
+   </fieldset>
+    <fieldset>
+      <input placeholder="Twój adres email" type="text" tabindex="2" name="email" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Twój numer telefonu" type="text" tabindex="3" name="phone" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Wpisz tutaj swoją wiadomość..." type="text" tabindex="5" name="message" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Wyślij</button>
+    </fieldset>
+	<div class="success"> <?= $success; ?> </div> 
+  </form>
+   
+</div>
+</body2>
+
+
+	</center>
+</div>
+</div>
+</br>
+
+<center>
+			<a href="index.html"> <img src="obrazy/dom.png"  style="margin: 50px;" /></a>
+			<a href="transport.html"> <img src="obrazy/transport.png"  style="margin: 50px;" /></a>
+			<a href="warsztat.html"> <img src="obrazy/warsztat.png" style="margin: 50px;" /></a>
+			<a href="kontakt.html"> <img src="obrazy/kontakt.png" style="margin: 50px;" /></a>
+			
+</center>
+
+</body>
+
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104878841-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
