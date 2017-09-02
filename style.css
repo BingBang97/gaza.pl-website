@@ -52,7 +52,29 @@ body
 	padding: 20px;
 	background-color: #F2F3F7;
 	margin-top: 8px;
-	height: 1220px;
+	height: auto;
+	width:1200px;
+	display:inline-block;
+}
+#opis_onas
+{
+	font-size: 25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 20px;
+	background-color: #F2F3F7;
+	margin-top: 8px;
+	height: auto;
+	width:1200px;
+	display:inline-block;
+}
+#opis_dok
+{
+	font-size: 25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 20px;
+	background-color: #F2F3F7;
+	margin-top: 8px;
+	height: auto;
 	width:1200px;
 	display:inline-block;
 }
@@ -116,18 +138,18 @@ body
 	padding: 20px;
 	background-color: #F2F3F7;
 	margin-top: 8px;
-	height: 1300px;
+	height: auto;
 	width:1200px;
 	display: inline-block;
 }
-#osprzedaz
+#opis_warsztat
 {
 	font-size: 25px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	padding: 20px;
 	background-color: #F2F3F7;
 	margin-top: 8px;
-	height: 520px;
+	height: auto;
 	width:800px;
 	display:inline-block;
 	
