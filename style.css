@@ -2,11 +2,16 @@
 @import "compass/css3";
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:600);
 
+/*@media screen and (max width: 768px){
+	#opis{font-size:20px;padding:5px;background-color:#F2F3F7;margin-top:5px;height:auto;width:90%;display:inline-block;}
+}*/
+
 h2
 {
 	color: black;
-	font-size: 38px;
+	font-size: 43px;
 	font-weight: bold;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 body
