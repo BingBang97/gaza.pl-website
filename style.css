@@ -58,7 +58,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:1200px;
+	width:72%;
 	display:inline-block;
 }
 #opis_onas
@@ -69,7 +69,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:1200px;
+	width:72%;
 	display:inline-block;
 }
 #opis_dok
@@ -80,7 +80,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:1200px;
+	width:72%;
 	display:inline-block;
 }
 #opis_praca
@@ -91,7 +91,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:1200px;
+	width:72%;
 	display:inline-block;
 }
 .center-me{
@@ -144,7 +144,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:1200px;
+	width:72%;
 	display: inline-block;
 }
 #opis_warsztat
@@ -155,7 +155,7 @@ body
 	background-color: #F2F3F7;
 	margin-top: 8px;
 	height: auto;
-	width:800px;
+	width:72%;
 	display:inline-block;
 	
 }
@@ -171,8 +171,8 @@ body
 	padding: 20px;
 	background-color: #F2F3F7;
 	margin-top: 8px;
-	height: 1420px;
-	width:1000px;
+	height: auto;
+	width:72%;
 	display:inline-block;
 	
 }
@@ -361,4 +361,86 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .col.four {
+    width: 48%;
+    margin: 1%;
+  }
+  .col.three {
+    display: block;
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .header {
+    height: auto;
+    background: #eee;
+  }
+  #logo {
+    position: initial;
+    float: none;
+    display: block;
+    transform: none;
+    margin: 10px auto 0 auto;
+  }
+  ul.nav {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  ul.nav li {
+    float: initial;
+    display: inline-block;
+  }
+  .responsivegroup {
+    display: block;
+  }
+  .responsivegroup:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media all and (max-width:450px) {
+  .col, .col.four, .col.three, .col.two {
+    display: block;
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .col.extrapad {
+    padding: 1%;
+    margin-bottom: 10px;
+  }
+  .group {
+    display: none;
+	 
+  }
 }
