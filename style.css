@@ -19,7 +19,7 @@ body
 	/* background-color: #E4DCDC; */
 	background-image: url("https://zapodaj.net/images/c7bbb70b46181.jpg");
 	font-family: Forefront;
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 }
 
 {
@@ -37,6 +37,7 @@ body
 #container
 {	
 	text-align: center;
+	width:100%;
 }
 #logo
 {
@@ -54,12 +55,11 @@ body
 {
 	font-size: 25px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	padding: 20px;
 	background-color: #F2F3F7;
-	margin-top: 8px;
 	height: auto;
 	width:72%;
 	display:inline-block;
+	text-align:center;
 }
 #opis_onas
 {
@@ -93,6 +93,12 @@ body
 	height: auto;
 	width:72%;
 	display:inline-block;
+}
+#menudol
+{
+	width:100%;
+	text-align: center;
+
 }
 .center-me{
 	margin: 0 auto;
@@ -308,6 +314,7 @@ fieldset {
 	background-color: #fff;
 	min-width: 1366px;
 	display:inline-block;
+	text-align: center;
 }
 
 ul {
@@ -364,83 +371,103 @@ li.dropdown {
 }
 
 @media all and (max-width: 768px) {
-  .container {
-    width: 95%;
-  }
-  .col.four {
-    width: 48%;
-    margin: 1%;
-  }
-  .col.three {
-    display: block;
-    width: 95%;
-    padding: 0;
-    margin: 0 auto;
-    float: none;
-  }
-  .header {
-    height: auto;
-    background: #eee;
-  }
-  #logo {
-    position: initial;
-    float: none;
-    display: block;
-    transform: none;
-    margin: 10px auto 0 auto;
-  }
-  ul.nav {
-    float: none;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
-  ul.nav li {
-    float: initial;
-    display: inline-block;
-  }
-  .responsivegroup {
-    display: block;
-  }
-  .responsivegroup:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+	#container{
+		wiidth:100%;
+	}
+	#opis,#opis_onas,#opis_dok,#opis_praca,#oskup,#opis_warsztat,#okredyt 
+	{
+		width:90%;
+		left:25%;
+		top:45%;
+		text-align:center;
+		height:auto;
+	display:inline-block;
+	position: absolute;
+	}
+	#menudol{
+		text-align:center;
+		 display: block;
+	margin: 0 auto;
+	left:22%;
+		top:110%;
+		position: absolute;
+	}
 }
 
-@media all and (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+@media all and (max-width: 868px) {
+	#container{
+		wiidth:100%;
+	}
+	#opis,#opis_onas,#opis_dok,#opis_praca,#oskup,#opis_warsztat,#okredyt 
+	{
+		width:90%;
+		left:25%;
+		top:45%;
+		text-align:center;
+		height:auto;
+	display:inline-block;
+	position: absolute;
+	}
+	#menudol{
+		text-align:center;
+		 display: block;
+	margin: 0 auto;
+	left:22%;
+		top:110%;
+		position: absolute;
+	}
 }
 
-@media all and (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
 
-@media all and (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+
 }
 
 @media all and (max-width:450px) {
-  .col, .col.four, .col.three, .col.two {
-    display: block;
-    width: 95%;
-    padding: 0;
-    margin: 0 auto;
-    float: none;
-  }
-  .col.extrapad {
-    padding: 1%;
-    margin-bottom: 10px;
-  }
-  .group {
-    display: none;
-	 
-  }
+	#container{
+		wiidth:100%;
+	}
+   #opis,#opis_onas,#opis_dok,#opis_praca,#oskup,#opis_warsztat,#okredyt {
+    width:90%;
+	height:auto;
+	display:inline-block;
+	text-align:center;
+	margin: 0 auto;
+	left:25%;
+		top:45%;
+		position: absolute;
+   }
+   	#menudol{
+		text-align:center;
+		 display: block;
+	margin: 0 auto;
+	left:22%;
+		top:110%;
+		position: absolute;
+	}
+
+}
+@media all and (max-width:640px){
+	#container{
+		wiidth:100%;
+	}
+	#opis,#opis_onas,#opis_dok,#opis_praca,#oskup,#opis_warsztat,#okredyt 
+	{
+		width:90%;
+		height:auto;
+		display:inline-block;
+		text-align:center;
+	margin: 0 auto;
+	left:25%;
+		top:45%;
+		position: absolute;
+	}
+	#menudol{
+		text-align:center;
+		 display: block;
+	margin: 0 auto;
+	left:22%;
+		top:110%;
+		position: absolute;
+	}
+	
 }
